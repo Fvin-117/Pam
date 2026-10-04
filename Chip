@@ -1,0 +1,10 @@
+import * as React from 'react';
+import { Chip } from 'react-native-paper';
+
+const MyComponent = () => (
+  <Chip icon="information" onPress={() => console.log('Pressed')}>Example Chip</Chip>
+);
+
+export default MyComponent;
+
+##aqui vou colocar o codigo desmontado do icone do chip pra ter img nele se quiser
